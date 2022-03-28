@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat > file
+echo  "This is a test"
+exit
