@@ -1,0 +1,12 @@
+#!/bin/bash
+#Must be exicuted as root user or through a sudo user via sudo command
+
+
+
+read host
+hostn=$host
+hostn > /etc/hostname
+hostname < /etc/hostname
+echo 'Hostname: '; hostname
+echo -e "/etc/hostname: " 
+cat /etc/hostname
