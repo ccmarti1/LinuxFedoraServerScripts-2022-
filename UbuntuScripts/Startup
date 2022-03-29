@@ -1,0 +1,13 @@
+#!/bin/bash
+if ping 20.30.40.1
+then
+	echo "Connection to fedora is active"
+else
+	echo "Connection to fedora is not active. Check dhcpd services"
+
+if ping 1.1.1.1
+then
+ echo "You have connection to the internet"
+else
+ echo "No connection to internet. Check iptable configerations in fedora. Masquerading"
+
